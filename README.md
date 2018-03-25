@@ -1,4 +1,4 @@
-# Tensorflow-for-poets
+# Tensorflow Image Classifer-for-poets
 
 My first tensorflow training to train an image classifier. Thanks to [Google codelab developers](https://github.com/googlecodelabs)
 
@@ -13,7 +13,7 @@ Reason is because it takes lesser time, and deep learning takes many days to tra
 Personally I am using docker quickstart terminal: info [here](https://docs.docker.com/toolbox/toolbox_install_windows/)
 on how to install docker for windows if you are using windows like me.
 
-(https://gph.is/2pEVWIu)
+![](./gif1)
 
 ## Objectives:
 + to use python and tensorflow to train an image classifer 
