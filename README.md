@@ -88,4 +88,4 @@ python -m scripts.retrain \
   --image_dir=tf_files/flower_photos
   ```
   
-![Screenshot](capture1.png)
+![](./Capture1.PNG)
