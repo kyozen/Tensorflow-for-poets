@@ -102,7 +102,7 @@ During the training, it will take some time, so meanwhile the command can be exp
 
 ## Trigger/Run the retrain.py.script 
 ```
-python -m scripts.retrain \
+python -m scripts.retrain 
 ```
 
 ## Make a new graph file in the tf_files folder (after training is done)
