@@ -120,15 +120,18 @@ python -m scripts.retrain \
 --image_dir=tf_files/flower_photos
 ```
 
-## Change model Archhitecture  (default is set to ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}")
+
+## Change model Archhitecture  (default is set to mobilenet is the beginning when we set it)
 ```
 --architecture="${ARCHITECTURE}" \
 ```
+
 
 ## Setting Bottleneck directory 
 ```
 --bottleneck_dir=tf_files/bottlenecks \
 ```
+
 
 ## Setting the training steps 
 ```
