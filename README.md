@@ -59,7 +59,7 @@ tensorboard --logdir tf_files/training_summaries &
 ```
 
 
-## 6. train the model
+## 6. Train the model
 Open command promt or docker terminal and type:
 
 ```
@@ -87,5 +87,50 @@ python -m scripts.retrain \
   --architecture="${ARCHITECTURE}" \
   --image_dir=tf_files/flower_photos
   ```
-  
-![](./Capture1.PNG)
+
+After running either script, It will look something like this. 
+It will start creating botteneck .txt files.
+
+![](./Img/Capture1.PNG)
+
+
+After this it will start training and complete around 4000 steps ...
+
+![](./Img/Capture3.PNG)
+
+During the training, it will take some time, so meanwhile the command can be explained by the following:
+
+## Trigger/Run the retrain.py.script 
+```
+python -m scripts.retrain \
+```
+
+## Make a new graph file in the tf_files folder (after training is done)
+```
+ --output_graph=tf_files/retrained_graph.pb \
+```
+
+## Make a new label file 
+```
+ --output_labels=tf_files/retrained_labels.txt \
+```
+
+## Navigate using flower dataset directory
+```
+--image_dir=tf_files/flower_photos
+```
+
+## Change model Archhitecture  (default is set to ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}")
+```
+--architecture="${ARCHITECTURE}" \
+```
+
+## Setting Bottleneck directory 
+```
+--bottleneck_dir=tf_files/bottlenecks \
+```
+
+## Setting the training steps 
+```
+ --how_many_training_steps=500 \
+ ```
