@@ -87,3 +87,5 @@ python -m scripts.retrain \
   --architecture="${ARCHITECTURE}" \
   --image_dir=tf_files/flower_photos
   ```
+  
+![](./Img/capture1.png)
