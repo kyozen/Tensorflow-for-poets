@@ -107,12 +107,12 @@ python -m scripts.retrain \
 
 ## Make a new graph file in the tf_files folder (after training is done)
 ```
- --output_graph=tf_files/retrained_graph.pb \
+ --output_graph=tf_files/retrained_graph.pb 
 ```
 
 ## Make a new label file 
 ```
- --output_labels=tf_files/retrained_labels.txt \
+ --output_labels=tf_files/retrained_labels.txt 
 ```
 
 ## Navigate using flower dataset directory
@@ -123,19 +123,19 @@ python -m scripts.retrain \
 
 ## Change model Archhitecture  (default is set to mobilenet is the beginning when we set it)
 ```
---architecture="${ARCHITECTURE}" \
+--architecture="${ARCHITECTURE}" 
 ```
 
 
 ## Setting Bottleneck directory 
 ```
---bottleneck_dir=tf_files/bottlenecks \
+--bottleneck_dir=tf_files/bottlenecks 
 ```
 
 
 ## Setting the training steps 
 ```
- --how_many_training_steps=500 \
+ --how_many_training_steps=500 
  ```
 
 Final Results after training and testing model: 
