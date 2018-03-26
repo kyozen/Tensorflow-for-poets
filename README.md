@@ -4,7 +4,7 @@ My first tensorflow training to train an image classifier. Thanks to [Google cod
 
 To run [TensorFlow](https://www.tensorflow.org/) on a single machine, and will train a simple classifier to classify images of flowers.
 
-The exact codelab can be found [here](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)
+The exact codelab tutorial can be found [here](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0). It is very helpful.
 
 Using transfer learning, we have to start using a model that has been already trained, which will help us retrain final later of already trained model with new categoies from start. This time we will be using MobileNet instead of inception V3 aritechture. This is because Inception V3 is optimized for accuracy and performance, while the MobileNets are optimized to be smaller in size and efficient but lower acccuracy performance compared to inception v3.
 
