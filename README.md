@@ -137,3 +137,9 @@ python -m scripts.retrain \
 ```
  --how_many_training_steps=500 \
  ```
+
+Final Results after training and testing model: 
+
+![](./Img/Capture4.PNG)
+
+![](./Img/Capture5.PNG)
