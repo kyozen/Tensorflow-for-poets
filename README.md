@@ -32,6 +32,11 @@ on how to install docker for windows if you are using windows like me.
 ```
 
 
+
+
+
+
+
 2. Training of dataset can be done with the following steps:
 Clone the git respository by typing 
 
@@ -41,7 +46,7 @@ git clone https://github.com/googlecodelabs/tensorflow-for-poets-2
 
 
 3. Download the dataset 
-Use this link to download the [flower data] (http://download.tensorflow.org/example_images/flower_photos.tgz). Then extract the flower photos from the .tgz file just downloaded nad paste it in the tf_files folder. The folder contains 5 categories, daisy, roses, dandelion, sunflower, tulips and a License.txt.file.
+Use this link to download the [flower data](http://download.tensorflow.org/example_images/flower_photos.tgz). Then extract the flower photos from the .tgz file just downloaded nad paste it in the tf_files folder. The folder contains 5 categories, daisy, roses, dandelion, sunflower, tulips and a License.txt.file.
 
 
 
